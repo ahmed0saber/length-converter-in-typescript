@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Weight Converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glory&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='./style.css'>
+</head>
+<body>
+    <div class="app-container">
+        <h1 class="app-title">Weight Converter</h1>
+        <div class="input-wrapper">
+            <label for="meters">Enter length in Meters here</label>
+            <input id="meters" data-formula="x*1" type="number" value="" placeholder="Enter length in Meters here">
+        </div>
+        <div class="input-wrapper">
+            <label for="kilometers">Enter length in Kilometers here</label>
+            <input id="kilometers" data-formula="x*1000" type="number" value="" placeholder="Enter length in Kilometers here">
+        </div>
+        <div class="input-wrapper">
+            <label for="centimeters">Enter length in Centimeters here</label>
+            <input id="centimeters" data-formula="x/100" type="number" value="" placeholder="Enter length in Centimeters here">
+        </div>
+        <div class="input-wrapper">
+            <label for="inches">Enter length in Inches here</label>
+            <input id="inches" data-formula="x/39.370" type="number" value="" placeholder="Enter length in Inches here">
+        </div>
+        <div class="input-wrapper">
+            <label for="feets">Enter length in Feets here</label>
+            <input id="feets" data-formula="x/3.2808" type="number" value="" placeholder="Enter length in Feets here">
+        </div>
+        <div class="input-wrapper">
+            <label for="yards">Enter length in Yards here</label>
+            <input id="yards" data-formula="x/1.0936" type="number" value="" placeholder="Enter length in Yards here">
+        </div>
+        <div class="input-wrapper">
+            <label for="miles">Enter length in Miles here</label>
+            <input id="miles" data-formula="x/0.00062137" type="number" value="" placeholder="Enter length in Miles here">
+        </div>
+        <button class="reset-btn">Reset</button>
+    </div>
+</body>
+<script src='./build/index.js'></script>
+</html>
